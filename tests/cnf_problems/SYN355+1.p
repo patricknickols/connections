@@ -1,0 +1,1 @@
+cnf('translated_dir/SYN355+1.p',conjecture,[[big_p(f_skolem(1))],[big_q(f_skolem(1))],[big_r(_5418),-(big_p(_5418))],[-(big_q(_5686)),-(big_r(_5686))]]).

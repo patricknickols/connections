@@ -1,0 +1,1 @@
+cnf('translated_dir/SYN325+1.p',conjecture,[[-(p_defini(3,_5154)),-(big_g(_5154))],[-(p_defini(3,_5154)),-(big_f(_5154,f_skolem(1,_5154)))],[-(p_defini(2,_5154)),big_f(f_skolem(1,_5154),f_skolem(1,_5154))],[-(p_defini(2,_5154)),-(big_f(_5154,_5154))],[big_g(f_skolem(1,_5154))],[p_defini(2,_5154),p_defini(3,_5154)]]).

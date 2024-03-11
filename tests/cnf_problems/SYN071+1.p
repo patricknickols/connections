@@ -1,0 +1,1 @@
+cnf('translated_dir/SYN071+1.p',conjecture,[[equal___(a,d)],[equal___(b,c)],[-(equal___(a,b)),-(equal___(c,d))],[-(equal___(a,c)),-(equal___(b,d))],[-(equal___(_7688,_7688))],[equal___(_7904,_7998),-(equal___(_7998,_7904))],[-(equal___(_8406,_8640)),equal___(_8406,_8522),equal___(_8522,_8640)]]).

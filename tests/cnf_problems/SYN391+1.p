@@ -1,0 +1,1 @@
+cnf('translated_dir/SYN391+1.p',conjecture,[[p1,p2],[-(p1),-(p2)],[p1,-(p2)],[-(p1),p2]]).

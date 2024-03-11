@@ -1,0 +1,1 @@
+cnf('translated_dir/SYN079+1.p',conjecture,[[big_f(f(a,b),f(a,c))],[-(big_f(f(a,b),f(b,c)))],[-(big_f(f(b,c),f(a,c)))],[-(big_f(_6902,_7136)),big_f(_6902,_7018),big_f(_7018,_7136)]]).

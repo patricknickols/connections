@@ -1,0 +1,1660 @@
+Filename: CSR091+1.p.cnf 
+Timed out
+Filename: SYN000+1.p 
+[st0: [p(_171684)], ex3: p(_171684) -> [-p(h)]]
+None
+p(_171684)
+	-p(h)
+{'status': 'Theorem'}
+Filename: SYN001+1.p 
+[st0: [p_defini(1), p_defini(2)], ex0: p_defini(1) -> [-p_defini(1), p], ex1: p -> [-p_defini(1), -p], re0: -p_defini(1) <- p_defini(1), ex0: p_defini(2) -> [-p_defini(2), p], ex0: p -> [-p_defini(2), -p], re0: -p_defini(2) <- p_defini(2)]
+None
+p_defini(1)
+	-p_defini(1)
+	p
+		-p
+		-p_defini(1)
+p_defini(2)
+	-p_defini(2)
+	p
+		-p
+		-p_defini(2)
+{'status': 'Theorem'}
+Filename: SYN036+1.p 
+Timed out
+Filename: SYN036+2.p 
+Timed out
+Filename: SYN040+1.p 
+[st0: [p_defini(1), p_defini(2)], ex0: p_defini(1) -> [-p_defini(1), p, -q], ex1: p -> [-p_defini(1), -p], re0: -p_defini(1) <- p_defini(1), ex1: -q -> [-p_defini(1), q], re0: -p_defini(1) <- p_defini(1), ex0: p_defini(2) -> [-p_defini(2), -q, p], ex0: -q -> [-p_defini(2), q], re0: -p_defini(2) <- p_defini(2), ex0: p -> [-p_defini(2), -p], re0: -p_defini(2) <- p_defini(2)]
+None
+p_defini(1)
+	-p_defini(1)
+	p
+		-p
+		-p_defini(1)
+	-q
+		q
+		-p_defini(1)
+p_defini(2)
+	-p_defini(2)
+	-q
+		q
+		-p_defini(2)
+	p
+		-p
+		-p_defini(2)
+{'status': 'Theorem'}
+Filename: SYN041+1.p 
+[st0: [p], ex0: p -> [-p]]
+None
+p
+	-p
+{'status': 'Theorem'}
+Filename: SYN044+1.p 
+[st0: [p_defini(1), p_defini(2)], ex0: p_defini(1) -> [-p_defini(1), q], ex1: q -> [r, -q], ex1: r -> [p, -q, -r], ex0: p -> [-p_defini(1), -p], re0: -p_defini(1) <- p_defini(1), re0: -q <- q, ex0: p_defini(2) -> [-p_defini(2), p], ex1: p -> [r, -p], ex0: r -> [q, -r], ex0: q -> [-p_defini(2), -q], re0: -p_defini(2) <- p_defini(2)]
+None
+p_defini(1)
+	-p_defini(1)
+	q
+		-q
+		r
+			-r
+			p
+				-p
+				-p_defini(1)
+			-q
+p_defini(2)
+	-p_defini(2)
+	p
+		-p
+		r
+			-r
+			q
+				-q
+				-p_defini(2)
+{'status': 'Theorem'}
+Filename: SYN045+1.p 
+Timed out
+Filename: SYN046+1.p 
+[st0: [p_defini(1), p_defini(2)], ex0: p_defini(1) -> [-p_defini(1), p, -q], ex1: p -> [-p_defini(1), -p], re0: -p_defini(1) <- p_defini(1), ex1: -q -> [-p_defini(1), q], re0: -p_defini(1) <- p_defini(1), ex0: p_defini(2) -> [-p_defini(2), p, -q], ex0: p -> [-p_defini(2), -p], re0: -p_defini(2) <- p_defini(2), ex0: -q -> [-p_defini(2), q], re0: -p_defini(2) <- p_defini(2)]
+None
+p_defini(1)
+	-p_defini(1)
+	p
+		-p
+		-p_defini(1)
+	-q
+		q
+		-p_defini(1)
+p_defini(2)
+	-p_defini(2)
+	p
+		-p
+		-p_defini(2)
+	-q
+		q
+		-p_defini(2)
+{'status': 'Theorem'}
+Filename: SYN047+1.p 
+Timed out
+Filename: SYN048+1.p 
+[st0: [big_f(f_skolem(1, _44642))], ex0: big_f(f_skolem(1, _44642)) -> [-big_f(_44643)]]
+None
+big_f(f_skolem(1, _44642))
+	-big_f(_44643)
+{'status': 'Theorem'}
+Filename: SYN049+1.p 
+[st0: [big_q(_49742)], ex0: big_q(_49742) -> [big_p(f_skolem(1, _49743)), -big_q(f_skolem(2, _49743))], ex0: big_p(f_skolem(1, _49743)) -> [-big_p(_49744)]]
+None
+big_q(_49742)
+	-big_q(f_skolem(2, _49743))
+	big_p(f_skolem(1, _49743))
+		-big_p(_49744)
+{'status': 'Theorem'}
+Filename: SYN050+1.p 
+[st0: [big_r(_75982)], ex0: big_r(_75982) -> [-big_r(f_skolem(1, _63103, _61803)), big_p(_61803), big_q(_63103)], ex0: big_p(_61803) -> [-big_p(_71844)], ex0: big_q(_63103) -> [-big_q(_72945)]]
+None
+big_r(_75982)
+	-big_r(f_skolem(1, _63103, _61803))
+	big_p(_61803)
+		-big_p(_71844)
+	big_q(_63103)
+		-big_q(_72945)
+{'status': 'Theorem'}
+Filename: SYN051+1.p 
+Timed out
+Filename: SYN052+1.p 
+[st0: [p_defini(2), p_defini(3)], ex0: p_defini(2) -> [-p_defini(2), big_f(f_skolem(1))], ex1: big_f(f_skolem(1)) -> [p, -big_f(_47528)], ex0: p -> [-p_defini(2), -p], re0: -p_defini(2) <- p_defini(2), ex0: p_defini(3) -> [-p_defini(3), p], ex1: p -> [-p, big_f(_475220)], ex0: big_f(_475220) -> [-p_defini(3), -big_f(_502623)], re0: -p_defini(3) <- p_defini(3)]
+None
+p_defini(2)
+	-p_defini(2)
+	big_f(f_skolem(1))
+		-big_f(_47528)
+		p
+			-p
+			-p_defini(2)
+p_defini(3)
+	-p_defini(3)
+	p
+		-p
+		big_f(_475220)
+			-big_f(_502623)
+			-p_defini(3)
+{'status': 'Theorem'}
+Filename: SYN053+1.p 
+[st0: [p_defini(2), p_defini(4)], ex0: p_defini(2) -> [-p_defini(2), -p, -big_f(_47526)], ex1: -p -> [-p_defini(2), p], re0: -p_defini(2) <- p_defini(2), ex1: -big_f(_47526) -> [-p_defini(2), big_f(f_skolem(1))], re0: -p_defini(2) <- p_defini(2), ex0: p_defini(4) -> [-p_defini(4), -p, -big_f(_502621)], ex0: -p -> [-p_defini(4), p], re0: -p_defini(4) <- p_defini(4), ex0: -big_f(_502621) -> [-p_defini(4), big_f(f_skolem(3))], re0: -p_defini(4) <- p_defini(4)]
+None
+p_defini(2)
+	-p_defini(2)
+	-p
+		p
+		-p_defini(2)
+	-big_f(_47526)
+		big_f(f_skolem(1))
+		-p_defini(2)
+p_defini(4)
+	-p_defini(4)
+	-p
+		p
+		-p_defini(4)
+	-big_f(_502621)
+		big_f(f_skolem(3))
+		-p_defini(4)
+{'status': 'Theorem'}
+Filename: SYN054+1.p 
+Timed out
+Filename: SYN055+1.p 
+Timed out
+Filename: SYN056+1.p 
+Timed out
+Filename: SYN057+1.p 
+[st0: [big_g(f_skolem(1))], ex0: big_g(f_skolem(1)) -> [-big_g(_83843), big_h(_83843), big_i(_86883), big_h(_86883)], ex0: big_h(_83843) -> [big_f(_76804), -big_h(_76804)], ex0: big_f(_76804) -> [-big_f(f_skolem(1))], ex0: big_i(_86883) -> [-big_i(f_skolem(2))], ex0: big_h(_86883) -> [big_f(_76808), -big_h(_76808)], ex0: big_f(_76808) -> [-big_f(_796810), big_j(_796810), big_i(_796810)], ex0: big_j(_796810) -> [-big_j(f_skolem(2))], ex0: big_i(_796810) -> [-big_i(f_skolem(2))]]
+None
+big_g(f_skolem(1))
+	-big_g(_83843)
+	big_h(_83843)
+		-big_h(_76804)
+		big_f(_76804)
+			-big_f(f_skolem(1))
+	big_i(_86883)
+		-big_i(f_skolem(2))
+	big_h(_86883)
+		-big_h(_76808)
+		big_f(_76808)
+			-big_f(_796810)
+			big_j(_796810)
+				-big_j(f_skolem(2))
+			big_i(_796810)
+				-big_i(f_skolem(2))
+{'status': 'Theorem'}
+Filename: SYN058+1.p 
+[st0: [big_g(f_skolem(3))], ex0: big_g(f_skolem(3)) -> [big_s(_81223), big_f(_82623), -big_g(_82623)], ex0: big_s(_81223) -> [big_q(f_skolem(1)), -big_s(f_skolem(2))], ex0: big_q(f_skolem(1)) -> [big_p(_71066), -big_q(_72706)], ex0: big_p(_71066) -> [-big_p(f_skolem(3))], ex0: big_f(_82623) -> [-big_f(f_skolem(3))]]
+None
+big_g(f_skolem(3))
+	-big_g(_82623)
+	big_s(_81223)
+		-big_s(f_skolem(2))
+		big_q(f_skolem(1))
+			-big_q(_72706)
+			big_p(_71066)
+				-big_p(f_skolem(3))
+	big_f(_82623)
+		-big_f(f_skolem(3))
+{'status': 'Theorem'}
+Filename: SYN059+1.p 
+Timed out
+Filename: SYN060+1.p 
+[st0: [big_i(f_skolem(1))], ex0: big_i(f_skolem(1)) -> [-big_i(_62807), -big_f(_62807)], ex0: -big_f(_62807) -> [big_f(_58489), big_h(_58489)], ex1: big_h(_58489) -> [-big_i(_628011), -big_h(_628011)], re0: -big_i(_628011) <- big_i(f_skolem(1))]
+None
+big_i(f_skolem(1))
+	-big_i(_62807)
+	-big_f(_62807)
+		big_f(_58489)
+		big_h(_58489)
+			-big_h(_628011)
+			-big_i(_628011)
+{'status': 'Theorem'}
+Filename: SYN061+1.p 
+Timed out
+Filename: SYN062+1.p 
+[st0: [big_j(f_skolem(1))], ex0: big_j(f_skolem(1)) -> [-big_j(_71463), big_i(_71463), big_h(_71463)], ex1: big_i(_71463) -> [-big_i(_66025), big_f(_66025), big_h(_66025)], ex0: big_f(_66025) -> [-big_f(f_skolem(1))], ex0: big_h(_66025) -> [big_k(_75428), -big_h(_75428)], ex0: big_k(_75428) -> [-big_k(f_skolem(1))], ex0: big_h(_71463) -> [big_k(_754210), -big_h(_754210)], ex0: big_k(_754210) -> [-big_k(f_skolem(1))]]
+None
+big_j(f_skolem(1))
+	-big_j(_71463)
+	big_i(_71463)
+		-big_i(_66025)
+		big_f(_66025)
+			-big_f(f_skolem(1))
+		big_h(_66025)
+			-big_h(_75428)
+			big_k(_75428)
+				-big_k(f_skolem(1))
+	big_h(_71463)
+		-big_h(_754210)
+		big_k(_754210)
+			-big_k(f_skolem(1))
+{'status': 'Theorem'}
+Filename: SYN063+1.p 
+Timed out
+Filename: SYN064+1.p 
+[st0: [big_p(f_skolem(1, _50262, _49122), f_skolem(2, _50262, _49122))], ex0: big_p(f_skolem(1, _50262, _49122), f_skolem(2, _50262, _49122)) -> [-big_p(_49123, _50263)]]
+None
+big_p(f_skolem(1, _50262, _49122), f_skolem(2, _50262, _49122))
+	-big_p(_49123, _50263)
+{'status': 'Theorem'}
+Filename: SYN065+1.p 
+Timed out
+Filename: SYN066+1.p 
+Timed out
+Filename: SYN067+1.p 
+Timed out
+Filename: SYN068+1.p 
+[st0: [big_f(_68702), big_h(_68702, f_skolem(2, _68702))], ex0: big_f(_68702) -> [big_j(_85303), -big_f(_85303)], ex0: big_j(_85303) -> [-big_j(f_skolem(3))], ex0: big_h(_68702, f_skolem(2, _68702)) -> [big_g(_93546), -big_h(f_skolem(3), _93546)], ex0: big_g(_93546) -> [big_f(_68708), -big_g(f_skolem(2, _68708))], ex0: big_f(_68708) -> [big_j(_85309), -big_f(_85309)], ex0: big_j(_85309) -> [-big_j(f_skolem(3))]]
+None
+big_f(_68702)
+	-big_f(_85303)
+	big_j(_85303)
+		-big_j(f_skolem(3))
+big_h(_68702, f_skolem(2, _68702))
+	-big_h(f_skolem(3), _93546)
+	big_g(_93546)
+		-big_g(f_skolem(2, _68708))
+		big_f(_68708)
+			-big_f(_85309)
+			big_j(_85309)
+				-big_j(f_skolem(3))
+{'status': 'Theorem'}
+Filename: SYN069+1.p 
+Timed out
+Filename: SYN070+1.p 
+Timed out
+Filename: SYN071+1.p 
+Timed out
+Filename: SYN072+1.p 
+Timed out
+Filename: SYN073+1.p 
+[st0: [big_f(_56562, f_skolem(1, _56562))], ex0: big_f(_56562, f_skolem(1, _56562)) -> [-big_f(a, _51663), -big_f(_51663, _53883)], ex0: -big_f(_51663, _53883) -> [big_f(_56565, f_skolem(1, _56565))]]
+None
+big_f(_56562, f_skolem(1, _56562))
+	-big_f(a, _51663)
+	-big_f(_51663, _53883)
+		big_f(_56565, f_skolem(1, _56565))
+{'status': 'Theorem'}
+Filename: SYN074+1.p 
+Timed out
+Filename: SYN075+1.p 
+Timed out
+Filename: SYN076+1.p 
+Timed out
+Filename: SYN077+1.p 
+Timed out
+Filename: SYN078+1.p 
+Timed out
+Filename: SYN079+1.p 
+[st0: [big_f(f(a, b), f(a, c))], ex0: big_f(f(a, b), f(a, c)) -> [-big_f(_69025, _71365), big_f(_69025, _70185), big_f(_70185, _71365)], ex0: big_f(_69025, _70185) -> [-big_f(f(a, b), f(b, c))], ex0: big_f(_70185, _71365) -> [-big_f(f(b, c), f(a, c))]]
+None
+big_f(f(a, b), f(a, c))
+	-big_f(_69025, _71365)
+	big_f(_69025, _70185)
+		-big_f(f(a, b), f(b, c))
+	big_f(_70185, _71365)
+		-big_f(f(b, c), f(a, c))
+{'status': 'Theorem'}
+Filename: SYN080+1.p 
+Timed out
+Filename: SYN081+1.cnf 
+Timed out
+Filename: SYN081+1.p 
+Timed out
+Filename: SYN082+1.p 
+Timed out
+Filename: SYN083+1.p 
+Timed out
+Filename: SYN084+1.p 
+Timed out
+Filename: SYN315+1.p 
+Timed out
+Filename: SYN316+1.p 
+Timed out
+Filename: SYN317+1.p 
+Timed out
+Filename: SYN318+1.p 
+[st0: [big_g(_52822)], ex0: big_g(_52822) -> [big_f(_54383), big_f(_52823), -big_g(_54383)], ex0: big_f(_54383) -> [-big_f(f_skolem(1, _52824))], ex0: big_f(_52823) -> [-big_f(f_skolem(1, _52825))]]
+None
+big_g(_52822)
+	-big_g(_54383)
+	big_f(_54383)
+		-big_f(f_skolem(1, _52824))
+	big_f(_52823)
+		-big_f(f_skolem(1, _52825))
+{'status': 'Theorem'}
+Filename: SYN319+1.p 
+Timed out
+Filename: SYN320+1.p 
+Timed out
+Filename: SYN321+1.p 
+Timed out
+Filename: SYN322+1.p 
+Timed out
+Filename: SYN323+1.p 
+Timed out
+Filename: SYN324+1.p 
+Timed out
+Filename: SYN325+1.p 
+Timed out
+Filename: SYN326+1.p 
+Timed out
+Filename: SYN327+1.p 
+Timed out
+Filename: SYN328+1.p 
+Timed out
+Filename: SYN329+1.p 
+Timed out
+Filename: SYN330+1.p 
+Timed out
+Filename: SYN331+1.p 
+Timed out
+Filename: SYN332+1.p 
+Timed out
+Filename: SYN333+1.p 
+Timed out
+Filename: SYN334+1.p 
+Timed out
+Filename: SYN335+1.p 
+Timed out
+Filename: SYN336+1.p 
+[st0: [big_f(f_skolem(2, _71202, _71102), _71202)], ex0: big_f(f_skolem(2, _71202, _71102), _71202) -> [-big_f(_71106, f_skolem(1))]]
+None
+big_f(f_skolem(2, _71202, _71102), _71202)
+	-big_f(_71106, f_skolem(1))
+{'status': 'Theorem'}
+Filename: SYN337+1.p 
+Timed out
+Filename: SYN338+1.p 
+[st0: [big_f(f_skolem(1, _49782), f_skolem(1, _49782))], ex0: big_f(f_skolem(1, _49782), f_skolem(1, _49782)) -> [-big_f(_58764, _49784)]]
+None
+big_f(f_skolem(1, _49782), f_skolem(1, _49782))
+	-big_f(_58764, _49784)
+{'status': 'Theorem'}
+Filename: SYN339+1.p 
+[st0: [big_f(f_skolem(1, _49482), _58382, _58382)], ex0: big_f(f_skolem(1, _49482), _58382, _58382) -> [-big_f(_49483, f_skolem(1, _49483), _58383)]]
+None
+big_f(f_skolem(1, _49482), _58382, _58382)
+	-big_f(_49483, f_skolem(1, _49483), _58383)
+{'status': 'Theorem'}
+Filename: SYN340+1.p 
+Timed out
+Filename: SYN341+1.p 
+[st0: [big_f(f_skolem(1, _51162), _61762, f_skolem(2, _61762, _51162))], ex0: big_f(f_skolem(1, _51162), _61762, f_skolem(2, _61762, _51162)) -> [-big_f(_51163, f_skolem(1, _51163), _61763)]]
+None
+big_f(f_skolem(1, _51162), _61762, f_skolem(2, _61762, _51162))
+	-big_f(_51163, f_skolem(1, _51163), _61763)
+{'status': 'Theorem'}
+Filename: SYN342+1.p 
+Timed out
+Filename: SYN343+1.p 
+Timed out
+Filename: SYN344+1.p 
+Timed out
+Filename: SYN345+1.p 
+Timed out
+Filename: SYN346+1.p 
+[st0: [big_f(_85723, f_skolem(3, _85823, _85723)), big_f(_85823, f_skolem(3, _85823, _85723))], ex0: big_f(_85723, f_skolem(3, _85823, _85723)) -> [-big_f(f_skolem(2), f_skolem(3, _85825, _85725))], ex0: big_f(_85823, f_skolem(3, _85823, _85723)) -> [-big_f(f_skolem(2), f_skolem(3, _85827, _85727))]]
+None
+big_f(_85723, f_skolem(3, _85823, _85723))
+	-big_f(f_skolem(2), f_skolem(3, _85825, _85725))
+big_f(_85823, f_skolem(3, _85823, _85723))
+	-big_f(f_skolem(2), f_skolem(3, _85827, _85727))
+{'status': 'Theorem'}
+Filename: SYN347+1.p 
+Timed out
+Filename: SYN348+1.p 
+Timed out
+Filename: SYN349+1.p 
+Timed out
+Filename: SYN350+1.p 
+Timed out
+Filename: SYN351+1.p 
+Timed out
+Filename: SYN352+1.p 
+Timed out
+Filename: SYN353+1.p 
+Timed out
+Filename: SYN354+1.p 
+Timed out
+Filename: SYN355+1.p 
+[st0: [big_p(f_skolem(1))], ex0: big_p(f_skolem(1)) -> [big_r(_54185), -big_p(_54185)], ex0: big_r(_54185) -> [-big_q(_56866), -big_r(_56866)], ex0: -big_q(_56866) -> [big_q(f_skolem(1))]]
+None
+big_p(f_skolem(1))
+	-big_p(_54185)
+	big_r(_54185)
+		-big_r(_56866)
+		-big_q(_56866)
+			big_q(f_skolem(1))
+{'status': 'Theorem'}
+Filename: SYN356+1.p 
+Timed out
+Filename: SYN357+1.p 
+[st0: [big_p(_48842)], ex0: big_p(_48842) -> [-big_p(f_skolem(1))]]
+None
+big_p(_48842)
+	-big_p(f_skolem(1))
+{'status': 'Theorem'}
+Filename: SYN358+1.p 
+Timed out
+Filename: SYN359+1.p 
+[st0: [big_q(_76162, _77082), big_r(_77082)], ex1: big_q(_76162, _77082) -> [big_q(_70264, _71204), -big_q(_70264, _70264)], ex0: big_q(_70264, _71204) -> [big_r(_65927), -big_q(_65927, f_skolem(2, _65927))], ex0: big_r(_65927) -> [-big_r(f_skolem(1))], ex0: big_r(_77082) -> [-big_r(f_skolem(1))]]
+None
+big_q(_76162, _77082)
+	-big_q(_70264, _70264)
+	big_q(_70264, _71204)
+		-big_q(_65927, f_skolem(2, _65927))
+		big_r(_65927)
+			-big_r(f_skolem(1))
+big_r(_77082)
+	-big_r(f_skolem(1))
+{'status': 'Theorem'}
+Filename: SYN360+1.p 
+Timed out
+Filename: SYN361+1.p 
+[st0: [big_p(_71382, _72362), big_q(_71382, _72362)], ex0: big_p(_71382, _72362) -> [-big_p(_80663, f_skolem(1))], ex0: big_q(_71382, _72362) -> [big_s(_67044), -big_q(f_skolem(2, _67044), _67044)], ex0: big_s(_67044) -> [-big_s(_77685)]]
+None
+big_p(_71382, _72362)
+	-big_p(_80663, f_skolem(1))
+big_q(_71382, _72362)
+	-big_q(f_skolem(2, _67044), _67044)
+	big_s(_67044)
+		-big_s(_77685)
+{'status': 'Theorem'}
+Filename: SYN362+1.p 
+[st0: [big_p(_68442), big_r(f_skolem(2), _68442)], ex0: big_p(_68442) -> [-big_p(_64183)], ex0: big_r(f_skolem(2), _68442) -> [-big_r(_55844, f_skolem(1, _55844))]]
+None
+big_p(_68442)
+	-big_p(_64183)
+big_r(f_skolem(2), _68442)
+	-big_r(_55844, f_skolem(1, _55844))
+{'status': 'Theorem'}
+Filename: SYN363+1.p 
+[st0: [big_r(_63142, f_skolem(1, _63142))], ex0: big_r(_63142, f_skolem(1, _63142)) -> [big_r(_57804, _58944), -big_r(a, _57804)], ex0: big_r(_57804, _58944) -> [-big_r(_55845, b)]]
+None
+big_r(_63142, f_skolem(1, _63142))
+	-big_r(a, _57804)
+	big_r(_57804, _58944)
+		-big_r(_55845, b)
+{'status': 'Theorem'}
+Filename: SYN364+1.p 
+Timed out
+Filename: SYN365+1.p 
+Timed out
+Filename: SYN366+1.p 
+Timed out
+Filename: SYN367+1.p 
+[st0: [big_q(f_skolem(1))], ex0: big_q(f_skolem(1)) -> [-big_q(_53225), p], ex0: p -> [-p, -big_r(_53227)], ex0: -big_r(_53227) -> [big_r(f_skolem(2))]]
+None
+big_q(f_skolem(1))
+	-big_q(_53225)
+	p
+		-p
+		-big_r(_53227)
+			big_r(f_skolem(2))
+{'status': 'Theorem'}
+Filename: SYN368+1.p 
+[st0: [big_p(f_skolem(1, _44642))], ex0: big_p(f_skolem(1, _44642)) -> [-big_p(_44643)]]
+None
+big_p(f_skolem(1, _44642))
+	-big_p(_44643)
+{'status': 'Theorem'}
+Filename: SYN369+1.p 
+Timed out
+Filename: SYN370+1.p 
+[st0: [big_p(_53542, f_skolem(1, _53542), _66402)], ex0: big_p(_53542, f_skolem(1, _53542), _66402) -> [-big_p(a, f_skolem(1, _53543), h(f_skolem(1, _53543))), -big_p(_53543, f_skolem(1, _53543), f(f_skolem(1, _53543)))], ex0: -big_p(_53543, f_skolem(1, _53543), f(f_skolem(1, _53543))) -> [big_p(_53545, f_skolem(1, _53545), _66405)]]
+None
+big_p(_53542, f_skolem(1, _53542), _66402)
+	-big_p(a, f_skolem(1, _53543), h(f_skolem(1, _53543)))
+	-big_p(_53543, f_skolem(1, _53543), f(f_skolem(1, _53543)))
+		big_p(_53545, f_skolem(1, _53545), _66405)
+{'status': 'Theorem'}
+Filename: SYN371+1.p 
+Timed out
+Filename: SYN372+1.p 
+[st0: [big_q(_58002)], ex0: big_q(_58002) -> [big_p(f_skolem(2)), -big_q(f_skolem(1))], ex0: big_p(f_skolem(2)) -> [-big_p(_58004)]]
+None
+big_q(_58002)
+	-big_q(f_skolem(1))
+	big_p(f_skolem(2))
+		-big_p(_58004)
+{'status': 'Theorem'}
+Filename: SYN373+1.p 
+Timed out
+Filename: SYN374+1.p 
+Timed out
+Filename: SYN375+1.p 
+Timed out
+Filename: SYN376+1.p 
+[st0: [big_p(f_skolem(2))], ex0: big_p(f_skolem(2)) -> [-big_p(_60885), big_p(f_skolem(1))], ex0: big_p(f_skolem(1)) -> [big_p(_60887), -big_p(f_skolem(1))], ex0: big_p(_60887) -> [-big_p(f_skolem(3))]]
+None
+big_p(f_skolem(2))
+	-big_p(_60885)
+	big_p(f_skolem(1))
+		-big_p(f_skolem(1))
+		big_p(_60887)
+			-big_p(f_skolem(3))
+{'status': 'Theorem'}
+Filename: SYN377+1.p 
+Timed out
+Filename: SYN378+1.p 
+[st0: [big_q(_53862)], ex0: big_q(_53862) -> [-big_q(f_skolem(1))]]
+None
+big_q(_53862)
+	-big_q(f_skolem(1))
+{'status': 'Theorem'}
+Filename: SYN379+1.p 
+[st0: [big_q(_59022, _59022, _65002)], ex0: big_q(_59022, _59022, _65002) -> [-big_q(_60583, _59023, _61543)]]
+None
+big_q(_59022, _59022, _65002)
+	-big_q(_60583, _59023, _61543)
+{'status': 'Theorem'}
+Filename: SYN380+1.p 
+Timed out
+Filename: SYN381+1.p 
+[st0: [big_p(f_skolem(2))], ex0: big_p(f_skolem(2)) -> [big_q(_64923, _66043), -big_p(_64923)], ex0: big_q(_64923, _66043) -> [big_q(_72525, _73585), -big_q(_73585, _72525), -big_q(_73585, _73585)], ex0: big_q(_72525, _73585) -> [-big_q(f_skolem(1, _69467), _69467)], ex0: -big_q(_73585, _73585) -> [big_q(_649210, _660410), -big_p(_649210)], re0: -big_p(_649210) <- big_p(f_skolem(2))]
+None
+big_p(f_skolem(2))
+	-big_p(_64923)
+	big_q(_64923, _66043)
+		-big_q(_73585, _72525)
+		big_q(_72525, _73585)
+			-big_q(f_skolem(1, _69467), _69467)
+		-big_q(_73585, _73585)
+			big_q(_649210, _660410)
+			-big_p(_649210)
+{'status': 'Theorem'}
+Filename: SYN382+1.p 
+[st0: [big_p(_70043, f_skolem(2))], ex0: big_p(_70043, f_skolem(2)) -> [-big_p(f_skolem(1, _55645), _68305), -big_q(f_skolem(1, _55645), _55645)], ex0: -big_q(f_skolem(1, _55645), _55645) -> [big_q(_70046, f_skolem(2))]]
+None
+big_p(_70043, f_skolem(2))
+	-big_p(f_skolem(1, _55645), _68305)
+	-big_q(f_skolem(1, _55645), _55645)
+		big_q(_70046, f_skolem(2))
+{'status': 'Theorem'}
+Filename: SYN383+1.p 
+[st0: [big_q(_48083)], ex0: big_q(_48083) -> [-big_q(f_skolem(1, _48085))]]
+None
+big_q(_48083)
+	-big_q(f_skolem(1, _48085))
+{'status': 'Theorem'}
+Filename: SYN384+1.p 
+[st0: [big_p(f_skolem(2, _61742, _61642), _61642, _61642)], ex0: big_p(f_skolem(2, _61742, _61642), _61642, _61642) -> [-big_p(_61643, _61743, f_skolem(1))]]
+None
+big_p(f_skolem(2, _61742, _61642), _61642, _61642)
+	-big_p(_61643, _61743, f_skolem(1))
+{'status': 'Theorem'}
+Filename: SYN385+1.p 
+[st1: [big_p(f_skolem(1, _46364))], ex0: big_p(f_skolem(1, _46364)) -> [-big_p(_46365)]]
+None
+big_p(f_skolem(1, _46364))
+	-big_p(_46365)
+{'status': 'Theorem'}
+Filename: SYN386+1.p 
+Timed out
+Filename: SYN387+1.p 
+[st0: [p], ex0: p -> [-p]]
+None
+p
+	-p
+{'status': 'Theorem'}
+Filename: SYN388+1.p 
+[st0: [p], ex0: p -> [-p]]
+None
+p
+	-p
+{'status': 'Theorem'}
+Filename: SYN389+1.p 
+[st0: [p], ex0: p -> [-p]]
+None
+p
+	-p
+{'status': 'Theorem'}
+Filename: SYN390+1.p 
+Timed out
+Filename: SYN391+1.p 
+[st0: [p1, p2], ex0: p1 -> [-p1, -p2], ex1: -p2 -> [-p1, p2], re0: -p1 <- p1, ex0: p2 -> [-p1, -p2], ex1: -p1 -> [p1, -p2], re0: -p2 <- p2]
+None
+p1
+	-p1
+	-p2
+		p2
+		-p1
+p2
+	-p2
+	-p1
+		p1
+		-p2
+{'status': 'Theorem'}
+Filename: SYN392+1.p 
+Timed out
+Filename: SYN394+1.p 
+[st0: [g(f_skolem(1))], ex0: g(f_skolem(1)) -> [f(_49963), -g(_49963)], ex0: f(_49963) -> [-f(_52844)]]
+None
+g(f_skolem(1))
+	-g(_49963)
+	f(_49963)
+		-f(_52844)
+{'status': 'Theorem'}
+Filename: SYN395+1.p 
+[st0: [g(_54242)], ex0: g(_54242) -> [f(_49963), -g(_49963)], ex0: f(_49963) -> [-f(f_skolem(1))]]
+None
+g(_54242)
+	-g(_49963)
+	f(_49963)
+		-f(f_skolem(1))
+{'status': 'Theorem'}
+Filename: SYN396+1.p 
+Timed out
+Filename: SYN397+1.p 
+[st0: [p_defini(2), p_defini(4)], ex0: p_defini(2) -> [-p_defini(2), -f(f_skolem(1))], ex1: -f(f_skolem(1)) -> [-p_defini(2), f(_46148)], re0: -p_defini(2) <- p_defini(2), ex0: p_defini(4) -> [-p_defini(4), -f(f_skolem(3))], ex0: -f(f_skolem(3)) -> [-p_defini(4), f(_477217)], re0: -p_defini(4) <- p_defini(4)]
+None
+p_defini(2)
+	-p_defini(2)
+	-f(f_skolem(1))
+		f(_46148)
+		-p_defini(2)
+p_defini(4)
+	-p_defini(4)
+	-f(f_skolem(3))
+		f(_477217)
+		-p_defini(4)
+{'status': 'Theorem'}
+Filename: SYN398+1.p 
+Timed out
+Filename: SYN399+1.p 
+[st0: [p_defini(1), p_defini(3)], ex0: p_defini(1) -> [-p_defini(1), p], ex1: p -> [f(_47528), -p], ex0: f(_47528) -> [-p_defini(1), -f(_500411)], re0: -p_defini(1) <- p_defini(1), ex0: p_defini(3) -> [-p_defini(3), f(f_skolem(2))], ex1: f(f_skolem(2)) -> [-f(_475220), p], ex0: p -> [-p_defini(3), -p], re0: -p_defini(3) <- p_defini(3)]
+None
+p_defini(1)
+	-p_defini(1)
+	p
+		-p
+		f(_47528)
+			-f(_500411)
+			-p_defini(1)
+p_defini(3)
+	-p_defini(3)
+	f(f_skolem(2))
+		-f(_475220)
+		p
+			-p
+			-p_defini(3)
+{'status': 'Theorem'}
+Filename: SYN400+1.p 
+[st0: [p_defini(1), p_defini(3)], ex0: p_defini(1) -> [-p_defini(1), p], ex1: p -> [-p_defini(1), -p], re0: -p_defini(1) <- p_defini(1), ex0: p_defini(3) -> [-p_defini(3), p], ex0: p -> [-p_defini(3), -p], re0: -p_defini(3) <- p_defini(3)]
+None
+p_defini(1)
+	-p_defini(1)
+	p
+		-p
+		-p_defini(1)
+p_defini(3)
+	-p_defini(3)
+	p
+		-p
+		-p_defini(3)
+{'status': 'Theorem'}
+Filename: SYN401+1.p 
+Timed out
+Filename: SYN402+1.p 
+[st0: [f(_48842)], ex0: f(_48842) -> [-f(f_skolem(1))]]
+None
+f(_48842)
+	-f(f_skolem(1))
+{'status': 'Theorem'}
+Filename: SYN403+1.p 
+[st0: [h(f_skolem(1))], ex0: h(f_skolem(1)) -> [g(f_skolem(1)), -h(f_skolem(1))], ex0: g(f_skolem(1)) -> [f(f_skolem(1)), -g(f_skolem(1))], ex0: f(f_skolem(1)) -> [-f(f_skolem(1))]]
+None
+h(f_skolem(1))
+	-h(f_skolem(1))
+	g(f_skolem(1))
+		-g(f_skolem(1))
+		f(f_skolem(1))
+			-f(f_skolem(1))
+{'status': 'Theorem'}
+Filename: SYN404+1.p 
+[st0: [f(_46242)], ex0: f(_46242) -> [-f(_44843)]]
+None
+f(_46242)
+	-f(_44843)
+{'status': 'Theorem'}
+Filename: SYN405+1.p 
+[st0: [f(_53402), g(_53402)], ex0: f(_53402) -> [-f(_50163)], ex0: g(_53402) -> [-g(f_skolem(1))]]
+None
+f(_53402)
+	-f(_50163)
+g(_53402)
+	-g(f_skolem(1))
+{'status': 'Theorem'}
+Filename: SYN406+1.p 
+[st0: [g(_59402), h(_59402)], ex0: g(_59402) -> [f(_53603), -g(_53603)], ex0: f(_53603) -> [-f(f_skolem(1))], ex0: h(_59402) -> [-h(f_skolem(1))]]
+None
+g(_59402)
+	-g(_53603)
+	f(_53603)
+		-f(f_skolem(1))
+h(_59402)
+	-h(f_skolem(1))
+{'status': 'Theorem'}
+Filename: SYN407+1.p 
+[st0: [g(f_skolem(1))], ex0: g(f_skolem(1)) -> [f(_55125), -g(_55125), -h(_55125)], ex0: f(_55125) -> [-f(f_skolem(1))], ex0: -h(_55125) -> [f(_61967), h(_61967)], ex0: f(_61967) -> [-f(f_skolem(1))]]
+None
+g(f_skolem(1))
+	-g(_55125)
+	f(_55125)
+		-f(f_skolem(1))
+	-h(_55125)
+		h(_61967)
+		f(_61967)
+			-f(f_skolem(1))
+{'status': 'Theorem'}
+Filename: SYN408+1.p 
+[st1: [f(_47284)], ex0: f(_47284) -> [-f(f_skolem(1))]]
+None
+f(_47284)
+	-f(f_skolem(1))
+{'status': 'Theorem'}
+Filename: SYN409+1.p 
+Timed out
+Filename: SYN410+1.p 
+[st0: [f(_52382, _53202)], ex0: f(_52382, _53202) -> [-f(_49323, _50143)]]
+None
+f(_52382, _53202)
+	-f(_49323, _50143)
+{'status': 'Theorem'}
+Filename: SYN411+1.p 
+Timed out
+Filename: SYN412+1.p 
+[st0: [f(f_skolem(1), _53222), f(f_skolem(1), f_skolem(1))], ex0: f(f_skolem(1), _53222) -> [-f(f_skolem(1), _53223), -f(f_skolem(1), f_skolem(1))], re0: -f(f_skolem(1), f_skolem(1)) <- f(f_skolem(1), _53222), ex0: f(f_skolem(1), f_skolem(1)) -> [-f(f_skolem(1), _53227), -f(f_skolem(1), f_skolem(1))], re0: -f(f_skolem(1), f_skolem(1)) <- f(f_skolem(1), f_skolem(1))]
+None
+f(f_skolem(1), _53222)
+	-f(f_skolem(1), _53223)
+	-f(f_skolem(1), f_skolem(1))
+f(f_skolem(1), f_skolem(1))
+	-f(f_skolem(1), _53227)
+	-f(f_skolem(1), f_skolem(1))
+{'status': 'Theorem'}
+Filename: SYN413+1.p 
+Timed out
+Filename: SYN414+1.p 
+Timed out
+Filename: SYN415+1.p 
+Timed out
+Filename: SYN416+1.p 
+[st0: [q], ex0: q -> [-q]]
+None
+q
+	-q
+{'status': 'Theorem'}
+Filename: SYN417+1.p 
+Timed out
+Filename: SYN418+1.p 
+Timed out
+Filename: SYN419+1.p 
+Timed out
+Filename: SYN420+1.p 
+Timed out
+Filename: SYN421+1.p 
+Timed out
+Filename: SYN422+1.p 
+Timed out
+Filename: SYN423+1.p 
+Timed out
+Filename: SYN424+1.p 
+Timed out
+Filename: SYN425+1.p 
+Timed out
+Filename: SYN426+1.p 
+Timed out
+Filename: SYN427+1.p 
+Timed out
+Filename: SYN428+1.p 
+Timed out
+Filename: SYN429+1.p 
+Timed out
+Filename: SYN430+1.p 
+Timed out
+Filename: SYN431+1.p 
+Timed out
+Filename: SYN432+1.p 
+Timed out
+Filename: SYN433+1.p 
+Timed out
+Filename: SYN434+1.p 
+Timed out
+Filename: SYN435+1.p 
+Timed out
+Filename: SYN436+1.p 
+Timed out
+Filename: SYN437+1.p 
+Timed out
+Filename: SYN438+1.p 
+Timed out
+Filename: SYN439+1.p 
+Timed out
+Filename: SYN440+1.p 
+Timed out
+Filename: SYN441+1.p 
+Timed out
+Filename: SYN442+1.p 
+Timed out
+Filename: SYN443+1.p 
+Timed out
+Filename: SYN444+1.p 
+Timed out
+Filename: SYN445+1.p 
+Timed out
+Filename: SYN446+1.p 
+Timed out
+Filename: SYN447+1.p 
+Timed out
+Filename: SYN448+1.p 
+Timed out
+Filename: SYN449+1.p 
+Timed out
+Filename: SYN450+1.p 
+Timed out
+Filename: SYN451+1.p 
+Timed out
+Filename: SYN452+1.p 
+Timed out
+Filename: SYN453+1.p 
+Timed out
+Filename: SYN454+1.p 
+Timed out
+Filename: SYN455+1.p 
+Timed out
+Filename: SYN456+1.p 
+Timed out
+Filename: SYN457+1.p 
+Timed out
+Filename: SYN458+1.p 
+Timed out
+Filename: SYN459+1.p 
+Timed out
+Filename: SYN460+1.p 
+Timed out
+Filename: SYN461+1.p 
+Timed out
+Filename: SYN462+1.p 
+Timed out
+Filename: SYN463+1.p 
+Timed out
+Filename: SYN464+1.p 
+Timed out
+Filename: SYN465+1.p 
+Timed out
+Filename: SYN466+1.p 
+Timed out
+Filename: SYN467+1.p 
+Timed out
+Filename: SYN468+1.p 
+Timed out
+Filename: SYN469+1.p 
+Timed out
+Filename: SYN470+1.p 
+Timed out
+Filename: SYN471+1.p 
+Timed out
+Filename: SYN472+1.p 
+Timed out
+Filename: SYN473+1.p 
+Timed out
+Filename: SYN474+1.p 
+Timed out
+Filename: SYN475+1.p 
+Timed out
+Filename: SYN476+1.p 
+Timed out
+Filename: SYN477+1.p 
+Timed out
+Filename: SYN478+1.p 
+Timed out
+Filename: SYN479+1.p 
+Timed out
+Filename: SYN480+1.p 
+Timed out
+Filename: SYN481+1.p 
+Timed out
+Filename: SYN482+1.p 
+Timed out
+Filename: SYN483+1.p 
+Timed out
+Filename: SYN484+1.p 
+Timed out
+Filename: SYN485+1.p 
+Timed out
+Filename: SYN486+1.p 
+Timed out
+Filename: SYN487+1.p 
+Timed out
+Filename: SYN488+1.p 
+Timed out
+Filename: SYN489+1.p 
+Timed out
+Filename: SYN490+1.p 
+Timed out
+Filename: SYN491+1.p 
+Timed out
+Filename: SYN492+1.p 
+Timed out
+Filename: SYN493+1.p 
+Timed out
+Filename: SYN494+1.p 
+Timed out
+Filename: SYN495+1.p 
+Timed out
+Filename: SYN496+1.p 
+Timed out
+Filename: SYN497+1.p 
+Timed out
+Filename: SYN498+1.p 
+Timed out
+Filename: SYN499+1.p 
+Timed out
+Filename: SYN500+1.p 
+Timed out
+Filename: SYN501+1.p 
+Timed out
+Filename: SYN502+1.p 
+Timed out
+Filename: SYN503+1.p 
+Timed out
+Filename: SYN504+1.p 
+Timed out
+Filename: SYN505+1.p 
+Timed out
+Filename: SYN506+1.p 
+Timed out
+Filename: SYN507+1.p 
+Timed out
+Filename: SYN508+1.p 
+Timed out
+Filename: SYN509+1.p 
+Timed out
+Filename: SYN510+1.p 
+Timed out
+Filename: SYN511+1.p 
+Timed out
+Filename: SYN512+1.p 
+Timed out
+Filename: SYN513+1.p 
+Timed out
+Filename: SYN514+1.p 
+Timed out
+Filename: SYN515+1.p 
+Timed out
+Filename: SYN516+1.p 
+Timed out
+Filename: SYN517+1.p 
+Timed out
+Filename: SYN518+1.p 
+Timed out
+Filename: SYN519+1.p 
+Timed out
+Filename: SYN520+1.p 
+Timed out
+Filename: SYN521+1.p 
+Timed out
+Filename: SYN522+1.p 
+Timed out
+Filename: SYN523+1.p 
+Timed out
+Filename: SYN524+1.p 
+Timed out
+Filename: SYN525+1.p 
+Timed out
+Filename: SYN526+1.p 
+Timed out
+Filename: SYN527+1.p 
+Timed out
+Filename: SYN528+1.p 
+Timed out
+Filename: SYN529+1.p 
+Timed out
+Filename: SYN530+1.p 
+Timed out
+Filename: SYN531+1.p 
+Timed out
+Filename: SYN532+1.p 
+Timed out
+Filename: SYN533+1.p 
+Timed out
+Filename: SYN534+1.p 
+Timed out
+Filename: SYN535+1.p 
+Timed out
+Filename: SYN536+1.p 
+Timed out
+Filename: SYN537+1.p 
+Timed out
+Filename: SYN538+1.p 
+Timed out
+Filename: SYN539+1.p 
+Timed out
+Filename: SYN540+1.p 
+Timed out
+Filename: SYN541+1.p 
+Timed out
+Filename: SYN542+1.p 
+Timed out
+Filename: SYN543+1.p 
+Timed out
+Filename: SYN544+1.p 
+Timed out
+Filename: SYN545+1.p 
+Timed out
+Filename: SYN546+1.p 
+Timed out
+Filename: SYN547+1.p 
+Timed out
+Filename: SYN548+1.p 
+Timed out
+Filename: SYN549+1.p 
+Timed out
+Filename: SYN550+1.p 
+Timed out
+Filename: SYN551+1.p 
+Timed out
+Filename: SYN551+2.p 
+Timed out
+Filename: SYN551+3.p 
+Timed out
+Filename: SYN721+1.p 
+[st0: [r(b, _77802), q(_77802, a)], ex0: r(b, _77802) -> [q(_70584, _71624), -r(_73964, _71624)], ex0: q(_70584, _71624) -> [r(_65685, _66825), -q(_65685, _65685)], ex0: r(_65685, _66825) -> [-r(a, b)], ex0: q(_77802, a) -> [r(_65688, _66828), -q(_65688, _65688)], ex0: r(_65688, _66828) -> [-r(a, b)]]
+None
+r(b, _77802)
+	-r(_73964, _71624)
+	q(_70584, _71624)
+		-q(_65685, _65685)
+		r(_65685, _66825)
+			-r(a, b)
+q(_77802, a)
+	-q(_65688, _65688)
+	r(_65688, _66828)
+		-r(a, b)
+{'status': 'Theorem'}
+Filename: SYN722+1.p 
+[st0: [p(a), p(b)], ex1: p(a) -> [-p(_68644), q(_68644), q(f_skolem(1, _68644)), q(c), q(d)], ex0: q(_68644) -> [-q(_64485)], ex0: q(f_skolem(1, _68644)) -> [-q(_64486)], ex0: q(c) -> [-q(_64487)], ex0: q(d) -> [-q(_64488)], ex1: p(b) -> [-p(_686410), q(_686410), q(f_skolem(1, _686410)), q(c), q(d)], ex0: q(_686410) -> [-q(_644811)], ex0: q(f_skolem(1, _686410)) -> [-q(_644812)], ex0: q(c) -> [-q(_644813)], ex0: q(d) -> [-q(_644814)]]
+None
+p(a)
+	-p(_68644)
+	q(_68644)
+		-q(_64485)
+	q(f_skolem(1, _68644))
+		-q(_64486)
+	q(c)
+		-q(_64487)
+	q(d)
+		-q(_64488)
+p(b)
+	-p(_686410)
+	q(_686410)
+		-q(_644811)
+	q(f_skolem(1, _686410))
+		-q(_644812)
+	q(c)
+		-q(_644813)
+	q(d)
+		-q(_644814)
+{'status': 'Theorem'}
+Filename: SYN723+1.p 
+Timed out
+Filename: SYN724+1.p 
+Timed out
+Filename: SYN725+1.p 
+Timed out
+Filename: SYN726+1.cnf 
+Timed out
+Filename: SYN726+1.p 
+Timed out
+Filename: SYN727+1.p 
+[st0: [likes(_63142, f_skolem(1, _63142))], ex0: likes(_63142, f_skolem(1, _63142)) -> [likes(_57804, _58944), -likes(lyle, _57804)], ex0: likes(_57804, _58944) -> [-likes(_55845, bruce)]]
+None
+likes(_63142, f_skolem(1, _63142))
+	-likes(lyle, _57804)
+	likes(_57804, _58944)
+		-likes(_55845, bruce)
+{'status': 'Theorem'}
+Filename: SYN728+1.p 
+Timed out
+Filename: SYN729+1.p 
+[st0: [l(f_skolem(2), _87482), p(_87482)], ex0: l(f_skolem(2), _87482) -> [p(_64803), -l(_64803, g(h(f_skolem(1, _64803))))], ex0: p(_64803) -> [-p(f_skolem(2))], ex0: p(_87482) -> [p(_714210), -p(g(_714210))], ex0: p(_714210) -> [p(_714215), -p(h(_714215))], ex0: p(_714215) -> [p(_648017), -p(f_skolem(1, _648017))], ex0: p(_648017) -> [-p(f_skolem(2))]]
+None
+l(f_skolem(2), _87482)
+	-l(_64803, g(h(f_skolem(1, _64803))))
+	p(_64803)
+		-p(f_skolem(2))
+p(_87482)
+	-p(g(_714210))
+	p(_714210)
+		-p(h(_714215))
+		p(_714215)
+			-p(f_skolem(1, _648017))
+			p(_648017)
+				-p(f_skolem(2))
+{'status': 'Theorem'}
+Filename: SYN730+1.p 
+[st0: [p(_53542, f_skolem(1, _53542), _66402)], ex0: p(_53542, f_skolem(1, _53542), _66402) -> [-p(a, f_skolem(1, _53543), h(f_skolem(1, _53543))), -p(_53543, f_skolem(1, _53543), k(f_skolem(1, _53543)))], ex0: -p(_53543, f_skolem(1, _53543), k(f_skolem(1, _53543))) -> [p(_53545, f_skolem(1, _53545), _66405)]]
+None
+p(_53542, f_skolem(1, _53542), _66402)
+	-p(a, f_skolem(1, _53543), h(f_skolem(1, _53543)))
+	-p(_53543, f_skolem(1, _53543), k(f_skolem(1, _53543)))
+		p(_53545, f_skolem(1, _53545), _66405)
+{'status': 'Theorem'}
+Filename: SYN731+1.p 
+[st0: [p(_56822, _56822, _51162)], ex0: p(_56822, _56822, _51162) -> [-p(_51163, _52543, f_skolem(1, _52543, _51163))]]
+None
+p(_56822, _56822, _51162)
+	-p(_51163, _52543, f_skolem(1, _52543, _51163))
+{'status': 'Theorem'}
+Filename: SYN732+1.p 
+[st0: [p(_65623, _69063)], ex0: p(_65623, _69063) -> [-p(f_skolem(2, _65625), _65625)]]
+None
+p(_65623, _69063)
+	-p(f_skolem(2, _65625), _65625)
+{'status': 'Theorem'}
+Filename: SYN733+1.p 
+[st0: [p(_56922), q(_56922)], ex0: p(_56922) -> [-p(_51683)], ex0: q(_56922) -> [-q(f_skolem(1, _51684)), -q(_51684)], ex0: -q(_51684) -> [p(_56926), q(_56926)], ex0: p(_56926) -> [-p(_51687)]]
+None
+p(_56922)
+	-p(_51683)
+q(_56922)
+	-q(f_skolem(1, _51684))
+	-q(_51684)
+		q(_56926)
+		p(_56926)
+			-p(_51687)
+{'status': 'Theorem'}
+Filename: SYN915+1.p 
+[st0: [true___], ex0: true___ -> [-true___]]
+None
+true___
+	-true___
+{'status': 'Theorem'}
+Filename: SYN916+1.cnf 
+[st0: None]
+None
+{'status': 'Non-Theorem: no positive start clauses'}
+Filename: SYN916+1.p 
+[st0: None]
+None
+{'status': 'Non-Theorem: no positive start clauses'}
+Filename: SYN917+1.p 
+Timed out
+Filename: SYN918+1.p 
+Timed out
+Filename: SYN919+1.p 
+Timed out
+Filename: SYN920+1.p 
+Timed out
+Filename: SYN921+1.p 
+[st0: [q(_48082)], ex0: q(_48082) -> [p(f_skolem(1, _48083)), -q(_48083)], ex0: p(f_skolem(1, _48083)) -> [-p(_48084)]]
+None
+q(_48082)
+	-q(_48083)
+	p(f_skolem(1, _48083))
+		-p(_48084)
+{'status': 'Theorem'}
+Filename: SYN922+1.p 
+Timed out
+Filename: SYN923+1.p 
+[st0: [p(f_skolem(1))], ex0: p(f_skolem(1)) -> [-p(_50165), -q(_51565)], ex0: -q(_51565) -> [q(f_skolem(1))]]
+None
+p(f_skolem(1))
+	-p(_50165)
+	-q(_51565)
+		q(f_skolem(1))
+{'status': 'Theorem'}
+Filename: SYN924+1.p 
+Timed out
+Filename: SYN925+1.p 
+[st0: [p(f_skolem(1, _44642))], ex0: p(f_skolem(1, _44642)) -> [-p(_44643)]]
+None
+p(f_skolem(1, _44642))
+	-p(_44643)
+{'status': 'Theorem'}
+Filename: SYN926+1.p 
+[st0: [p(_52842), q(_54242)], ex0: p(_52842) -> [-p(f_skolem(1))], ex0: q(_54242) -> [-q(f_skolem(1))]]
+None
+p(_52842)
+	-p(f_skolem(1))
+q(_54242)
+	-q(f_skolem(1))
+{'status': 'Theorem'}
+Filename: SYN927+1.p 
+[st0: [p(f_skolem(1))], ex0: p(f_skolem(1)) -> [-p(_48803)]]
+None
+p(f_skolem(1))
+	-p(_48803)
+{'status': 'Theorem'}
+Filename: SYN928+1.p 
+[st0: [p(_46242)], ex0: p(_46242) -> [-p(_44843)]]
+None
+p(_46242)
+	-p(_44843)
+{'status': 'Theorem'}
+Filename: SYN929+1.p 
+[st1: [p(_48964)], ex0: p(_48964) -> [-p(f_skolem(2))]]
+None
+p(_48964)
+	-p(f_skolem(2))
+{'status': 'Theorem'}
+Filename: SYN930+1.p 
+Timed out
+Filename: SYN931+1.p 
+[st0: [p_defini(2), p_defini(4)], ex0: p_defini(2) -> [-p_defini(2), p(_50046), c], ex1: p(_50046) -> [-p_defini(2), -p(f_skolem(1))], re0: -p_defini(2) <- p_defini(2), ex1: c -> [-p_defini(2), -c], re0: -p_defini(2) <- p_defini(2), ex0: p_defini(4) -> [-p_defini(4), p(_475221), c], ex0: p(_475221) -> [-p_defini(4), -p(f_skolem(3))], re0: -p_defini(4) <- p_defini(4), ex0: c -> [-p_defini(4), -c], re0: -p_defini(4) <- p_defini(4)]
+None
+p_defini(2)
+	-p_defini(2)
+	p(_50046)
+		-p(f_skolem(1))
+		-p_defini(2)
+	c
+		-c
+		-p_defini(2)
+p_defini(4)
+	-p_defini(4)
+	p(_475221)
+		-p(f_skolem(3))
+		-p_defini(4)
+	c
+		-c
+		-p_defini(4)
+{'status': 'Theorem'}
+Filename: SYN932+1.p 
+[st0: [p_defini(2), p_defini(3)], ex0: p_defini(2) -> [-p_defini(2), c], ex1: c -> [-p_defini(2), -c], re0: -p_defini(2) <- p_defini(2), ex0: p_defini(3) -> [-p_defini(3), c], ex0: c -> [-p_defini(3), -c], re0: -p_defini(3) <- p_defini(3)]
+None
+p_defini(2)
+	-p_defini(2)
+	c
+		-c
+		-p_defini(2)
+p_defini(3)
+	-p_defini(3)
+	c
+		-c
+		-p_defini(3)
+{'status': 'Theorem'}
+Filename: SYN933+1.p 
+[st0: [p_defini(1), p_defini(3)], ex0: p_defini(1) -> [-p_defini(1), c], ex1: c -> [-p_defini(1), -c], re0: -p_defini(1) <- p_defini(1), ex0: p_defini(3) -> [-p_defini(3), c], ex0: c -> [-p_defini(3), -c], re0: -p_defini(3) <- p_defini(3)]
+None
+p_defini(1)
+	-p_defini(1)
+	c
+		-c
+		-p_defini(1)
+p_defini(3)
+	-p_defini(3)
+	c
+		-c
+		-p_defini(3)
+{'status': 'Theorem'}
+Filename: SYN934+1.p 
+[st0: [p_defini(2), p_defini(4)], ex0: p_defini(2) -> [-p_defini(2), c, -p(f_skolem(1))], ex1: c -> [-p_defini(2), -c], re0: -p_defini(2) <- p_defini(2), ex1: -p(f_skolem(1)) -> [-p_defini(2), p(_502616)], re0: -p_defini(2) <- p_defini(2), ex0: p_defini(4) -> [-p_defini(4), c, -p(f_skolem(3))], ex0: c -> [-p_defini(4), -c], re0: -p_defini(4) <- p_defini(4), ex0: -p(f_skolem(3)) -> [-p_defini(4), p(_475231)], re0: -p_defini(4) <- p_defini(4)]
+None
+p_defini(2)
+	-p_defini(2)
+	c
+		-c
+		-p_defini(2)
+	-p(f_skolem(1))
+		p(_502616)
+		-p_defini(2)
+p_defini(4)
+	-p_defini(4)
+	c
+		-c
+		-p_defini(4)
+	-p(f_skolem(3))
+		p(_475231)
+		-p_defini(4)
+{'status': 'Theorem'}
+Filename: SYN935+1.p 
+[st0: [p_defini(2), p_defini(4)], ex0: p_defini(2) -> [-p_defini(2), p(f_skolem(1)), -c], ex1: p(f_skolem(1)) -> [-p_defini(2), -p(_500410)], re0: -p_defini(2) <- p_defini(2), ex1: -c -> [-p_defini(2), c], re0: -p_defini(2) <- p_defini(2), ex0: p_defini(4) -> [-p_defini(4), p(f_skolem(3)), -c], ex0: p(f_skolem(3)) -> [-p_defini(4), -p(_475227)], re0: -p_defini(4) <- p_defini(4), ex0: -c -> [-p_defini(4), c], re0: -p_defini(4) <- p_defini(4)]
+None
+p_defini(2)
+	-p_defini(2)
+	p(f_skolem(1))
+		-p(_500410)
+		-p_defini(2)
+	-c
+		c
+		-p_defini(2)
+p_defini(4)
+	-p_defini(4)
+	p(f_skolem(3))
+		-p(_475227)
+		-p_defini(4)
+	-c
+		c
+		-p_defini(4)
+{'status': 'Theorem'}
+Filename: SYN936+1.p 
+[st0: [p_defini(2), p_defini(4)], ex0: p_defini(2) -> [-p_defini(2), c, -p(_47526)], ex1: c -> [-p_defini(2), -c], re0: -p_defini(2) <- p_defini(2), ex1: -p(_47526) -> [-p_defini(2), p(f_skolem(1))], re0: -p_defini(2) <- p_defini(2), ex0: p_defini(4) -> [-p_defini(4), c, -p(_502621)], ex0: c -> [-p_defini(4), -c], re0: -p_defini(4) <- p_defini(4), ex0: -p(_502621) -> [-p_defini(4), p(f_skolem(3))], re0: -p_defini(4) <- p_defini(4)]
+None
+p_defini(2)
+	-p_defini(2)
+	c
+		-c
+		-p_defini(2)
+	-p(_47526)
+		p(f_skolem(1))
+		-p_defini(2)
+p_defini(4)
+	-p_defini(4)
+	c
+		-c
+		-p_defini(4)
+	-p(_502621)
+		p(f_skolem(3))
+		-p_defini(4)
+{'status': 'Theorem'}
+Filename: SYN937+1.p 
+[st0: [p_defini(2), p_defini(4)], ex0: p_defini(2) -> [-p_defini(2), p(_47526), -c], ex1: p(_47526) -> [-p_defini(2), -p(f_skolem(1))], re0: -p_defini(2) <- p_defini(2), ex1: -c -> [-p_defini(2), c], re0: -p_defini(2) <- p_defini(2), ex0: p_defini(4) -> [-p_defini(4), p(_500421), -c], ex0: p(_500421) -> [-p_defini(4), -p(f_skolem(3))], re0: -p_defini(4) <- p_defini(4), ex0: -c -> [-p_defini(4), c], re0: -p_defini(4) <- p_defini(4)]
+None
+p_defini(2)
+	-p_defini(2)
+	p(_47526)
+		-p(f_skolem(1))
+		-p_defini(2)
+	-c
+		c
+		-p_defini(2)
+p_defini(4)
+	-p_defini(4)
+	p(_500421)
+		-p(f_skolem(3))
+		-p_defini(4)
+	-c
+		c
+		-p_defini(4)
+{'status': 'Theorem'}
+Filename: SYN938+1.p 
+Timed out
+Filename: SYN939+1.p 
+Timed out
+Filename: SYN940+1.p 
+Timed out
+Filename: SYN941+1.p 
+Timed out
+Filename: SYN942+1.p 
+[st0: [a(_63303), c(_63303)], ex0: a(_63303) -> [-a(f_skolem(1))], ex0: c(_63303) -> [a(_55906), -b(_55906), -c(_55906)], ex0: a(_55906) -> [-a(f_skolem(1))], ex0: -b(_55906) -> [b(f_skolem(1))]]
+None
+a(_63303)
+	-a(f_skolem(1))
+c(_63303)
+	-c(_55906)
+	a(_55906)
+		-a(f_skolem(1))
+	-b(_55906)
+		b(f_skolem(1))
+{'status': 'Theorem'}
+Filename: SYN943+1.p 
+[st0: [p(_108963), g(_108963)], ex0: p(_108963) -> [-p(f_skolem(1))], ex0: g(_108963) -> [e(_108767), -g(_108767), -s(_108767, f(_108767))], ex0: e(_108767) -> [-e(f_skolem(1))], ex0: -s(_108767, f(_108767)) -> [s(f_skolem(1), _1091610), -p(_1091610)], ex1: -p(_1091610) -> [p(_1090612), c(_1090612)], ex0: c(_1090612) -> [e(_1088617), -g(_1088617), -c(f(_1088617))], ex0: e(_1088617) -> [-e(f_skolem(1))], re0: -g(_1088617) <- g(_108963)]
+None
+p(_108963)
+	-p(f_skolem(1))
+g(_108963)
+	-g(_108767)
+	e(_108767)
+		-e(f_skolem(1))
+	-s(_108767, f(_108767))
+		s(f_skolem(1), _1091610)
+		-p(_1091610)
+			p(_1090612)
+			c(_1090612)
+				-c(f(_1088617))
+				e(_1088617)
+					-e(f_skolem(1))
+				-g(_1088617)
+{'status': 'Theorem'}
+Filename: SYN944+1.p 
+[st0: [p(_101502), q(_101502, _101602)], ex0: p(_101502) -> [s(_100883), -p(_100883)], ex1: s(_100883) -> [-s(f_skolem(2))], ex0: q(_101502, _101602) -> [r(_101128, _101228), -q(_101128, _101228)], ex0: r(_101128, _101228) -> [-r(f_skolem(2), f_skolem(3))]]
+None
+p(_101502)
+	-p(_100883)
+	s(_100883)
+		-s(f_skolem(2))
+q(_101502, _101602)
+	-q(_101128, _101228)
+	r(_101128, _101228)
+		-r(f_skolem(2), f_skolem(3))
+{'status': 'Theorem'}
+Filename: SYN945+1.p 
+[st0: [p(f_skolem(1)), p(f_skolem(2))], ex0: p(f_skolem(1)) -> [-p(_48223)], ex0: p(f_skolem(2)) -> [-p(_48224)]]
+None
+p(f_skolem(1))
+	-p(_48223)
+p(f_skolem(2))
+	-p(_48224)
+{'status': 'Theorem'}
+Filename: SYN946+1.p 
+[st0: [p(f_skolem(2, _55083))], ex0: p(f_skolem(2, _55083)) -> [-p(_51845)]]
+None
+p(f_skolem(2, _55083))
+	-p(_51845)
+{'status': 'Theorem'}
+Filename: SYN947+1.p 
+[st0: [p(f_skolem(2, _55503))], ex0: p(f_skolem(2, _55503)) -> [-p(_51645)]]
+None
+p(f_skolem(2, _55503))
+	-p(_51645)
+{'status': 'Theorem'}
+Filename: SYN948+1.p 
+[st0: [a(_55002, _55002)], ex0: a(_55002, _55002) -> [-a(f_skolem(1, _49984), f_skolem(1, _49984))]]
+None
+a(_55002, _55002)
+	-a(f_skolem(1, _49984), f_skolem(1, _49984))
+{'status': 'Theorem'}
+Filename: SYN949+1.p 
+[st0: [p(_101502), q(_101502, _101602)], ex0: p(_101502) -> [s(_100883), -p(_100883)], ex1: s(_100883) -> [-s(f_skolem(2))], ex0: q(_101502, _101602) -> [r(_101128, _101228), -q(_101128, _101228)], ex0: r(_101128, _101228) -> [-r(f_skolem(2), f_skolem(3))]]
+None
+p(_101502)
+	-p(_100883)
+	s(_100883)
+		-s(f_skolem(2))
+q(_101502, _101602)
+	-q(_101128, _101228)
+	r(_101128, _101228)
+		-r(f_skolem(2), f_skolem(3))
+{'status': 'Theorem'}
+Filename: SYN950+1.p 
+Timed out
+Filename: SYN951+1.p 
+[st0: [p(_53722), p_defini(4)], ex0: p(_53722) -> [-p(f_skolem(1))], ex0: p_defini(4) -> [-p_defini(4), p_defini(2), p_defini(3)], ex0: p_defini(2) -> [-p_defini(2), -b], ex0: -b -> [-p_defini(2), b], re0: -p_defini(2) <- p_defini(2), ex0: p_defini(3) -> [-p_defini(3), q], ex0: q -> [-p_defini(3), -q], re0: -p_defini(3) <- p_defini(3)]
+None
+p(_53722)
+	-p(f_skolem(1))
+p_defini(4)
+	-p_defini(4)
+	p_defini(2)
+		-p_defini(2)
+		-b
+			b
+			-p_defini(2)
+	p_defini(3)
+		-p_defini(3)
+		q
+			-q
+			-p_defini(3)
+{'status': 'Theorem'}
+Filename: SYN952+1.p 
+[st0: [p(_46242)], ex0: p(_46242) -> [-p(_44843)]]
+None
+p(_46242)
+	-p(_44843)
+{'status': 'Theorem'}
+Filename: SYN953+1.p 
+[st0: [q(f_skolem(1))], ex0: q(f_skolem(1)) -> [p(_49963), -q(_49963)], ex0: p(_49963) -> [-p(_52844)]]
+None
+q(f_skolem(1))
+	-q(_49963)
+	p(_49963)
+		-p(_52844)
+{'status': 'Theorem'}
+Filename: SYN954+1.p 
+Timed out
+Filename: SYN955+1.p 
+[st0: [b(_54242)], ex0: b(_54242) -> [a(_49963), -b(_49963)], ex0: a(_49963) -> [-a(f_skolem(1))]]
+None
+b(_54242)
+	-b(_49963)
+	a(_49963)
+		-a(f_skolem(1))
+{'status': 'Theorem'}
+Filename: SYN956+1.p 
+[st0: [b(_54242)], ex0: b(_54242) -> [a(f_skolem(1)), -b(f_skolem(1))], ex0: a(f_skolem(1)) -> [-a(_52844)]]
+None
+b(_54242)
+	-b(f_skolem(1))
+	a(f_skolem(1))
+		-a(_52844)
+{'status': 'Theorem'}
+Filename: SYN957+1.p 
+Timed out
+Filename: SYN958+1.p 
+[st0: [a(_53402), b(_53402)], ex0: a(_53402) -> [-a(f_skolem(1))], ex0: b(_53402) -> [-b(_51564)]]
+None
+a(_53402)
+	-a(f_skolem(1))
+b(_53402)
+	-b(_51564)
+{'status': 'Theorem'}
+Filename: SYN959+1.p 
+[st1: [b(_47964)], ex0: b(_47964) -> [-b(f_skolem(1))]]
+None
+b(_47964)
+	-b(f_skolem(1))
+{'status': 'Theorem'}
+Filename: SYN960+1.p 
+Timed out
+Filename: SYN961+1.p 
+[st0: [p(f_skolem(1)), p(f_skolem(2))], ex0: p(f_skolem(1)) -> [-p(_56103)], ex0: p(f_skolem(2)) -> [-p(_56104)]]
+None
+p(f_skolem(1))
+	-p(_56103)
+p(f_skolem(2))
+	-p(_56104)
+{'status': 'Theorem'}
+Filename: SYN962+1.p 
+[st0: [p(f_skolem(1)), p(f_skolem(2))], ex0: p(f_skolem(1)) -> [-p(_48243)], ex0: p(f_skolem(2)) -> [-p(_48244)]]
+None
+p(f_skolem(1))
+	-p(_48243)
+p(f_skolem(2))
+	-p(_48244)
+{'status': 'Theorem'}
+Filename: SYN963+1.p 
+Timed out
+Filename: SYN964+1.p 
+[st0: [p(_46242)], ex0: p(_46242) -> [-p(f_skolem(1))]]
+None
+p(_46242)
+	-p(f_skolem(1))
+{'status': 'Theorem'}
+Filename: SYN965+1.p 
+Timed out
+Filename: SYN966+1.p 
+Timed out
+Filename: SYN967+1.p 
+Timed out
+Filename: SYN968+1.p 
+[st0: [p(f_skolem(1, _44642))], ex0: p(f_skolem(1, _44642)) -> [-p(_44643)]]
+None
+p(f_skolem(1, _44642))
+	-p(_44643)
+{'status': 'Theorem'}
+Filename: SYN969+1.p 
+[st0: [q(f_skolem(1))], ex0: q(f_skolem(1)) -> [p(_63823), -q(_63823)], ex0: p(_63823) -> [r(_64164), -p(_64164)], ex0: r(_64164) -> [-r(f_skolem(1))]]
+None
+q(f_skolem(1))
+	-q(_63823)
+	p(_63823)
+		-p(_64164)
+		r(_64164)
+			-r(f_skolem(1))
+{'status': 'Theorem'}
+Filename: SYN970+1.p 
+[st0: [r(f_skolem(2))], ex0: r(f_skolem(2)) -> [p(_63123), -r(_63223)], ex0: p(_63123) -> [-p(f_skolem(1))]]
+None
+r(f_skolem(2))
+	-r(_63223)
+	p(_63123)
+		-p(f_skolem(1))
+{'status': 'Theorem'}
+Filename: SYN971+1.p 
+[st0: [p(_44642)], ex0: p(_44642) -> [-p(f_skolem(1, _44643))]]
+None
+p(_44642)
+	-p(f_skolem(1, _44643))
+{'status': 'Theorem'}
+Filename: SYN972+1.p 
+[st0: [p(_57662, f_skolem(2))], ex0: p(_57662, f_skolem(2)) -> [-p(f_skolem(1), _56483)]]
+None
+p(_57662, f_skolem(2))
+	-p(f_skolem(1), _56483)
+{'status': 'Theorem'}
+Filename: SYN973+1.p 
+[st0: [p(z)], ex0: p(z) -> [-p(z)]]
+None
+p(z)
+	-p(z)
+{'status': 'Theorem'}
+Filename: SYN974+1.p 
+[st0: [p(_46242)], ex0: p(_46242) -> [-p(f_skolem(1))]]
+None
+p(_46242)
+	-p(f_skolem(1))
+{'status': 'Theorem'}
+Filename: SYN975+1.p 
+[st0: [p(f_skolem(1), f_skolem(1))], ex0: p(f_skolem(1), f_skolem(1)) -> [-p(_47663, _48483)]]
+None
+p(f_skolem(1), f_skolem(1))
+	-p(_47663, _48483)
+{'status': 'Theorem'}
+Filename: SYN976+1.p 
+[st0: [q(f_skolem(1))], ex0: q(f_skolem(1)) -> [-q(_56423)]]
+None
+q(f_skolem(1))
+	-q(_56423)
+{'status': 'Theorem'}
+Filename: SYN977+1.p 
+Timed out
+Filename: SYN978+1.p 
+[st0: [p_defini(1), p_defini(2)], ex0: p_defini(1) -> [-p_defini(1), b], ex1: b -> [-b], ex0: p_defini(2) -> [-p_defini(2), a], ex1: a -> [-a]]
+None
+p_defini(1)
+	-p_defini(1)
+	b
+		-b
+p_defini(2)
+	-p_defini(2)
+	a
+		-a
+{'status': 'Theorem'}
+Filename: SYN979+1.p 
+[st0: [p(f_skolem(1), f_skolem(2))], ex0: p(f_skolem(1), f_skolem(2)) -> [s(f_skolem(1)), -p(_95205, _95305)], ex0: s(f_skolem(1)) -> [-s(f_skolem(1))]]
+None
+p(f_skolem(1), f_skolem(2))
+	-p(_95205, _95305)
+	s(f_skolem(1))
+		-s(f_skolem(1))
+{'status': 'Theorem'}
+Filename: SYN980+1.p 
+Timed out
+Filename: SYN981+1.p 
+[st0: [r(_59402)], ex0: r(_59402) -> [q(f_skolem(1)), -r(f_skolem(1))], ex0: q(f_skolem(1)) -> [p(_53604), -q(_53604)], ex0: p(_53604) -> [-p(_59405)]]
+None
+r(_59402)
+	-r(f_skolem(1))
+	q(f_skolem(1))
+		-q(_53604)
+		p(_53604)
+			-p(_59405)
+{'status': 'Theorem'}

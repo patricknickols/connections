@@ -1,0 +1,1 @@
+cnf('translated_dir/SYN979+1.p',conjecture,[[p(f_skolem(1),f_skolem(2))],[q(_9520),-(p(_9520,f_skolem(1)))],[-(q(f_skolem(1)))],[-(q(f_skolem(2)))],[r(_9530),-(p(f_skolem(2),_9530))],[-(r(f_skolem(1)))],[-(r(f_skolem(2)))],[-(s(f_skolem(1)))],[s(f_skolem(1)),-(p(_9520,_9530))]]).

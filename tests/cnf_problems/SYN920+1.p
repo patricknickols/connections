@@ -1,0 +1,1 @@
+cnf('translated_dir/SYN920+1.p',conjecture,[[-(g(_8956)),f(_8956),h(_8956)],[f(_9352),g(_9352),-(h(_9352))],[-(f(f_skolem(1))),-(f(f_skolem(2)))],[-(f(f_skolem(1))),g(f_skolem(2))],[-(g(f_skolem(1))),-(f(f_skolem(2)))],[-(g(f_skolem(1))),g(f_skolem(2))],[h(f_skolem(1)),-(f(f_skolem(2)))],[h(f_skolem(1)),g(f_skolem(2))],[-(g(_8312)),f(_8312),f(_8580),-(h(_8580))]]).
