@@ -15,7 +15,7 @@ def parse_fof(fof):
     return Matrix([parse_clause(clause_str) for clause_str in clauses_str])
 
 
-def parse_clause(clause_str):
+def parse_clause(clause_str : str) -> list[Literal]:
     literals = []
     for literal_str in split_bracket(clause_str):
         lit = parse_literal(literal_str)
@@ -23,11 +23,11 @@ def parse_clause(clause_str):
     return literals
 
 
-def parse_literal(literal_str):
+def parse_literal(literal_str : str) -> Literal: 
     neg = False
     if literal_str[0] == "-":
         neg = True
-        literal_str = literal_str[2:-1]
+        literal_str = literal_str[2:-1] #Requires str of form -(f(x))
     split = literal_str.split(r"(", 1)
     terms = []
     if len(split) > 1:
@@ -56,18 +56,18 @@ def parse_term(term_str):
 def split_bracket(str):
     strs = []
     num_bracket = 0
-    split_indeces = [0]
+    split_indices = [0]
     for i, c in enumerate(str):
         if c == "(":
             num_bracket += 1
         elif c == ")":
             num_bracket -= 1
         elif num_bracket == 0 and c == ",":
-            split_indeces.append(i)
-    split_indeces.append(len(str))
-    for i in range(len(split_indeces) - 1):
-        start = split_indeces[i]
-        end = split_indeces[i + 1]
+            split_indices.append(i)
+    split_indices.append(len(str))
+    for i in range(len(split_indices) - 1):
+        start = split_indices[i]
+        end = split_indices[i + 1]
         if str[start] == ",":
             strs.append(str[start + 1: end])
         else:
