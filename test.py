@@ -1,5 +1,6 @@
 import gymnasium as gym
 from connections.calculi.classical import ConnectionEnv, ConnectionState, ConnectionAction
+from connections.utils.cnf_parsing import file2cnf
 from os import listdir
 from os.path import isfile, join
 import time
@@ -37,28 +38,29 @@ def describe_features(observation : ConnectionState):
         print(f"Actions: {observation.goal.actions}\n")
 
 def run_file(file):
+    start_time = time.time()
     output = ""
     env = ConnectionEnv(file)
+    print(env.matrix.clauses)
     observation = env.reset()
-    timeout = time.time() + 0.1  # timeout is in seconds
     while True:
         action = env.action_space[0]
         observation, reward, done, info = env.step(action)
         describe_features(observation)
         print("\n\n")
         if done:
+            end_time = time.time()
             output += str(env.state.proof_sequence)
             output += "\n"
             output += str(env.state.tableau)
             output += "\n"
             output += str(info)
+            print(f"Total time: {end_time - start_time}")
             return output
 
 
-run_file(file)
-        
-       
-
+#run_file(file)
+print(run_file("some_pets_are_cats.p"))      
 
 
 #my_wrapper = GymWrapper(env)
